@@ -1,0 +1,6 @@
+Coloque aqui uma cópia da música que você tenha autorização para publicar.
+Nome preferido: quinto-elemento.mp3
+Alternativa: quinto-elemento.m4a
+O site procura os dois formatos automaticamente.
+Sem esse arquivo, o site continua funcionando sem som (com efeitos visuais suaves).
+ATENÇÃO: GitHub Pages publica os arquivos do repositório para qualquer pessoa com o endereço. Não envie áudio comercial sem permissão.

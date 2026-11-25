@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#090e20">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Uma pequena surpresa de aniversário, feita com carinho para a July.">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta property="og:title" content="July, um universo inteiro em você ✦">
+  <meta property="og:description" content="Uma surpresa especial para os seus 20 anos. 💙">
+  <meta property="og:type" content="website">
+  <title>July, 20 anos de universos ✦</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/app.js"></script>
+  <script defer src="js/audio.js"></script>
+</head>
+<body class="is-locked">
+  <a class="skip-link" href="#inicio">Pular para o conteúdo</a>
+  <div class="cosmos" aria-hidden="true"><div id="starsLayer" class="stars-layer"></div><div class="cosmos-glow"></div></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- A entrada só desaparece após uma interação. Isso permite iniciar áudio no celular. -->
+  <div id="entry" class="entry" role="dialog" aria-modal="true" aria-labelledby="entryTitle">
+    <div class="entry-sky" aria-hidden="true"><span class="moon"></span><span class="entry-star e1">✦</span><span class="entry-star e2">✧</span><span class="entry-star e3">✦</span><span class="entry-star e4">✧</span></div>
+    <div class="entry-content">
+      <span class="eyebrow"><span class="eyebrow-dot"></span> 25 . 11 . 2026</span>
+      <div class="entry-planet" aria-hidden="true">
+        <span class="planet-ring"></span><span class="planet-core">20</span><span class="orbit-point"></span>
+      </div>
+      <p class="entry-overline">uma surpresa só sua</p>
+      <h1 id="entryTitle">Oi, <em>July.</em></h1>
+      <p class="entry-sub">Hoje, o universo tem um motivo a mais para celebrar.</p>
+      <button id="enterBtn" class="button button-primary entry-btn" type="button"><span class="btn-icon" aria-hidden="true">✦</span> Abrir meu presente <span aria-hidden="true">↗</span></button>
+      <p class="entry-hint">Coloque os fones, se quiser. Explore no seu ritmo. ♡</p>
+    </div>
+    <p class="entry-signature">feito com carinho, para você.</p>
+  </div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a href="#inicio" class="brand" aria-label="July 20, ir ao início"><span class="brand-spark">✳</span><span>july<span class="brand-dot">.</span>20</span></a>
+      <div class="nav-links">
+        <a href="#universo">Universo</a>
+        <a href="#cores">Cores</a>
+        <a href="#carta">Carta</a>
+        <a href="#pedido">Pedido ✦</a>
+      </div>
+      <button id="musicBtn" class="music-toggle" type="button" aria-label="Controlar música" aria-pressed="false" title="Música"><span class="music-disc" aria-hidden="true">♫</span><span id="musicLabel">Música</span><span class="mini-bars" aria-hidden="true"><i></i><i></i><i></i></span></button>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero section" aria-labelledby="heroTitle">
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <div class="section-kicker"><span class="tiny-star">✧</span> 25 de novembro • um dia só seu</div>
+          <p class="hero-prefix">Você deu mais uma volta ao redor do Sol.</p>
+          <h2 id="heroTitle">E o mundo ficou <span class="shimmer-word">mais bonito</span> com você nele.</h2>
+          <p class="hero-description">Hoje não é sobre ser perfeita, ter tudo resolvido ou saber exatamente para onde ir. É sobre celebrar cada versão sua — e todas as que ainda estão por vir.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#universo">Conheça esse universo <span aria-hidden="true">↘</span></a><span class="hero-note">20 anos, infinitas possibilidades.</span></div>
+          <div class="hero-line"><span class="line-circle"></span><span>Uma garota. Mil jeitos de brilhar.</span></div>
+        </div>
+        <div class="hero-visual reveal" aria-label="Fotografia da July com cabelo roxo, enquadrada por estrelas">
+          <div class="hero-orbit orbit-a" aria-hidden="true"></div><div class="hero-orbit orbit-b" aria-hidden="true"></div>
+          <div class="hero-photo-frame"><img src="assets/images/purple.webp" alt="July, com cabelos roxos e maquiagem artística" fetchpriority="high"></div>
+          <div class="floating-label top-label"><span>✦</span> 20 voltas ao Sol</div>
+          <div class="floating-label bottom-label">um universo chamado <strong>July.</strong></div>
+          <span class="hero-spark spark-a" aria-hidden="true">✧</span><span class="hero-spark spark-b" aria-hidden="true">✦</span><span class="hero-spark spark-c" aria-hidden="true">·</span>
+        </div>
+      </div>
+      <div class="scroll-down" aria-hidden="true"><span>deslize e descubra</span><span>↓</span></div>
+    </section>
+
+    <section class="interlude container reveal" aria-label="Uma pequena dedicatória">
+      <span class="interlude-icon" aria-hidden="true">✺</span>
+      <p>Ela pode ser calma como a lua, intensa como uma tempestade e colorida como o céu depois da chuva.</p>
+      <div class="interlude-small">E todas essas versões merecem ser celebradas.</div>
+      <span class="interlude-icon" aria-hidden="true">✺</span>
+    </section>
+
+    <section id="universo" class="universe section" aria-labelledby="universeTitle">
+      <div class="container">
+        <div class="section-heading reveal"><span class="section-kicker">01 / a pessoa por trás de todas as cores</span><h2 id="universeTitle">Um universo <em>chamado July.</em></h2><p>Há coisas que só fazem sentido quando a gente conhece todos os lados de alguém. Toque nas estrelas. Cada uma guarda um pedacinho seu.</p></div>
+        <div class="constellation-layout reveal">
+          <div class="constellation" id="constellation" aria-label="Sete estrelas interativas da July">
+            <svg class="constellation-lines" viewBox="0 0 700 520" preserveAspectRatio="none" aria-hidden="true"><path d="M109 112 L318 76 L552 122 L493 268 L173 258 L315 404 L596 416 M318 76 L493 268 L315 404 M109 112 L173 258" /></svg>
+            <span class="constellation-halo halo-one" aria-hidden="true"></span><span class="constellation-halo halo-two" aria-hidden="true"></span>
+            <button class="star-node selected" type="button" data-star="0" style="--x:15%;--y:22%" aria-pressed="true" aria-label="A coelhinha mais fofa"><span>✦</span><small>doçura</small></button>
+            <button class="star-node" type="button" data-star="1" style="--x:45%;--y:15%" aria-pressed="false" aria-label="Mil cores, uma só July"><span>✧</span><small>arte</small></button>
+            <button class="star-node" type="button" data-star="2" style="--x:79%;--y:23%" aria-pressed="false" aria-label="Um coração fofinho e sombrio"><span>✦</span><small>mistério</small></button>
+            <button class="star-node" type="button" data-star="3" style="--x:25%;--y:50%" aria-pressed="false" aria-label="A garota dos mil sonhos"><span>✧</span><small>sonhos</small></button>
+            <button class="star-node" type="button" data-star="4" style="--x:71%;--y:51%" aria-pressed="false" aria-label="A trilha sonora de uma vida"><span>✦</span><small>música</small></button>
+            <button class="star-node" type="button" data-star="5" style="--x:45%;--y:78%" aria-pressed="false" aria-label="A beleza de sentir"><span>✧</span><small>sentir</small></button>
+            <button class="star-node" type="button" data-star="6" style="--x:85%;--y:80%" aria-pressed="false" aria-label="O mundo ainda é seu"><span>✦</span><small>futuro</small></button>
+            <div class="center-sigil" aria-hidden="true">✺</div>
+          </div>
+          <div id="starDetail" class="star-detail" aria-live="polite">
+            <div class="detail-top"><span class="detail-number" id="detailNumber">ESTRELA 01 / 07</span><span id="detailGlyph" class="detail-glyph" aria-hidden="true">🐰</span></div>
+            <div class="detail-rule"></div>
+            <h3 id="detailTitle">A coelhinha mais fofa</h3>
+            <p id="detailText">Existe uma garota que ama coelhinhos, fica feliz com pequenas coisas e tem um jeitinho doce até quando tenta parecer brava. Ela sorri com os olhos, fica toda nervosinha quando recebe um elogio e consegue transformar momentos simples em lembranças especiais. Essa garota é você, July.</p>
+            <button id="steinBtn" type="button" class="secret-button" hidden>🔩 Um comentário sobre seus crushes fictícios...</button>
+            <div class="detail-bottom"><span id="detailTag">doçura &amp; pequenos detalhes</span><div class="detail-arrows"><button id="prevStar" type="button" aria-label="Estrela anterior">←</button><button id="nextStar" type="button" aria-label="Próxima estrela">→</button></div></div>
+          </div>
+        </div>
+        <p class="universe-footnote reveal">Até as estrelas mais diferentes podem pertencer à mesma constelação. ✦</p>
+      </div>
+    </section>
+
+    <section class="rabbit-break section reveal" aria-label="Uma pequena brincadeira com um coelhinho">
+      <div class="container rabbit-wrap"><div class="rabbit-speech"><span class="overline">psiu, July...</span><p>Você é oficialmente uma das poucas pessoas capazes de combinar <em>coelhinhos</em> e <em>terror psicológico</em> no mesmo universo.</p><strong>E eu acho isso maravilhoso. ♡</strong></div>
+        <button class="rabbit" id="rabbitBtn" type="button" aria-label="Fazer carinho no coelhinho" title="Faz carinho no coelhinho!">
+          <svg viewBox="0 0 180 180" role="img" aria-label="Desenho de um coelhinho azul"><ellipse cx="64" cy="51" rx="20" ry="48" transform="rotate(-17 64 51)" fill="#eff2ff" stroke="#6576b1" stroke-width="3"/><ellipse cx="113" cy="51" rx="20" ry="48" transform="rotate(18 113 51)" fill="#eff2ff" stroke="#6576b1" stroke-width="3"/><ellipse cx="64" cy="47" rx="10" ry="29" transform="rotate(-17 64 47)" fill="#eab8d8"/><ellipse cx="113" cy="47" rx="10" ry="29" transform="rotate(18 113 47)" fill="#eab8d8"/><path d="M43 92 C37 60 139 60 138 94 C151 146 124 162 91 161 C55 161 29 140 43 92Z" fill="#f1f5ff" stroke="#6576b1" stroke-width="3"/><ellipse cx="65" cy="108" rx="6" ry="8" fill="#232b4c"/><ellipse cx="112" cy="108" rx="6" ry="8" fill="#232b4c"/><ellipse cx="56" cy="123" rx="12" ry="7" fill="#eeb9d2" opacity=".65"/><ellipse cx="123" cy="123" rx="12" ry="7" fill="#eeb9d2" opacity=".65"/><path d="M83 127 Q90 121 97 127 Q91 133 90 133 Q88 132 83 127Z" fill="#d595b5"/><path d="M90 132 v7 m0 0 q-9 7-15-2 m15 2 q9 7 15-2" fill="none" stroke="#6476a5" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </button><span id="rabbitToast" class="rabbit-toast" aria-live="polite"></span></div>
+    </section>
+
+    <section id="cores" class="colors section" aria-labelledby="colorsTitle">
+      <div class="container">
+        <div class="section-heading reveal"><span class="section-kicker">02 / a arte de ser você</span><h2 id="colorsTitle">Todas as <em>cores da July.</em></h2><p>Azul, vermelho, roxo, verde... é impossível escolher uma cor só para uma pessoa que transforma até o próprio cabelo em arte.</p></div>
+        <div class="gallery-shell reveal" id="galleryShell" style="--gallery-color:#9863d1">
+          <div class="gallery-stage"><div class="gallery-image-wrap"><img id="galleryMain" src="assets/images/purple.webp" alt="July com cabelos roxos, maquiagem e acessórios" loading="lazy"><span class="image-corner tl" aria-hidden="true">✦</span><span class="image-corner br" aria-hidden="true">✧</span></div><span class="gallery-photo-index" id="galleryIndex">01 / 09</span></div>
+          <div class="gallery-info"><div class="gallery-info-top"><span class="gallery-label">uma paleta em movimento</span><span class="gallery-tiny-star">✳</span></div><h3 id="galleryTitle">Roxo de outro planeta</h3><p id="galleryCaption">Ela muda de cor, experimenta novos estilos e nunca deixa de ser inteiramente ela.</p><div class="gallery-controls"><button id="galleryPrev" type="button" aria-label="Foto anterior">←</button><button id="galleryNext" type="button" aria-label="Próxima foto">→</button><span>arraste, toque, descubra</span></div></div>
+        </div>
+        <div class="photo-thumbs reveal" id="photoThumbs" role="group" aria-label="Selecionar fotografias da July">
+          <button type="button" class="photo-thumb selected" data-photo="0" aria-label="Ver fotografia roxa" aria-pressed="true"><img src="assets/images/purple.webp" alt="" loading="lazy"></button>
+          <button type="button" class="photo-thumb" data-photo="1" aria-label="Ver fotografia vermelha" aria-pressed="false"><img src="assets/images/red.webp" alt="" loading="lazy"></button>
+          <button type="button" class="photo-thumb" data-photo="2" aria-label="Ver fotografia azul" aria-pressed="false"><img src="assets/images/blue.webp" alt="" loading="lazy"></button>
+          <button type="button" class="photo-thumb" data-photo="3" aria-label="Ver fotografia verde-azul" aria-pressed="false"><img src="assets/images/teal.webp" alt="" loading="lazy"></button>
+          <button type="button" class="photo-thumb" data-photo="4" aria-label="Ver fotografia violeta" aria-pressed="false"><img src="assets/images/violet.webp" alt="" loading="lazy"></button>
+          <button type="button" class="photo-thumb" data-photo="5" aria-label="Ver fotografia de maquiagem alternativa" aria-pressed="false"><img src="assets/images/green-dark.webp" alt="" loading="lazy"></button>
+          <button type="button" class="photo-thumb" data-photo="6" aria-label="Ver fotografia verde" aria-pressed="false"><img src="assets/images/green.webp" alt="" loading="lazy"></button>
+          <button type="button" class="photo-thumb" data-photo="7" aria-label="Ver maquiagem artística de terror" aria-pressed="false"><img src="assets/images/makeup-art.webp" alt="" loading="lazy"></button>
+          <button type="button" class="photo-thumb" data-photo="8" aria-label="Ver maquiagem sombria de terror" aria-pressed="false"><img src="assets/images/horror.webp" alt="" loading="lazy"></button>
+        </div>
+        <p class="colors-footnote reveal">O segredo nunca foi a cor do cabelo. Sempre foi a pessoa por trás de cada uma delas.</p>
+      </div>
+    </section>
+
+    <section id="carta" class="letter-section section" aria-labelledby="letterTitle">
+      <div class="container letter-grid">
+        <div class="letter-heading reveal"><span class="section-kicker">03 / algumas palavras, só suas</span><h2 id="letterTitle">Para a garota que merece se enxergar com <em>mais carinho.</em></h2><p>Escrevi algumas palavras para te acompanhar no começo desse novo capítulo. Não é um manual de como viver. É só um lembrete de quanto você importa.</p><div class="letter-excerpt"><span>“</span>Não desista dos seus sonhos, mas também não se cobre tanto para alcançá-los.<span>”</span></div><p class="letter-hint">Essa parte é pra ler sem pressa. ♡</p></div>
+        <div class="envelope-space reveal"><div class="letter-halo" aria-hidden="true"></div><button id="openLetter" class="envelope-button" type="button" aria-haspopup="dialog" aria-controls="letterDialog" aria-label="Abrir carta de aniversário"><span class="envelope"><span class="envelope-back"></span><span class="envelope-paper"><span>Para July,</span><small>com amor ♡</small></span><span class="envelope-front"></span><span class="envelope-flap"></span><span class="envelope-seal">♡</span></span><span class="envelope-cta">Toque para abrir a carta <span aria-hidden="true">↗</span></span></button></div>
+      </div>
+    </section>
+
+    <section id="pedido" class="wish section" aria-labelledby="wishTitle">
+      <div class="container wish-inner reveal"><span class="section-kicker">04 / antes de terminar</span><div class="wish-stars" aria-hidden="true">✦ &nbsp; ✧ &nbsp; ✦</div><h2 id="wishTitle">Faz um <em>pedido, July.</em></h2><p id="wishLead">Seus 20 anos começam agora. Que venham descobertas, oportunidades, novos lugares, muitos desenhos e pequenas alegrias que façam seu coração sorrir.</p>
+        <div id="cakeScene" class="cake-scene">
+          <button id="candleBtn" type="button" class="candle-button" aria-label="Apagar a vela e fazer um pedido" title="Toque na vela para fazer um pedido"><span class="flame" aria-hidden="true"></span><span class="wick" aria-hidden="true"></span><span class="candle-body" aria-hidden="true">20</span></button>
+          <div class="cake" aria-hidden="true"><div class="cake-icing"><span></span><span></span><span></span><span></span><span></span></div><div class="cake-top"></div><div class="cake-body"><span class="cake-hearts">♡ &nbsp; ✦ &nbsp; ♡</span></div><div class="cake-plate"></div></div>
+          <span class="cake-spark left" aria-hidden="true">✦</span><span class="cake-spark right" aria-hidden="true">✧</span>
+        </div>
+        <p id="wishPrompt" class="wish-prompt">Toque na chama para apagar sua velinha. ✨</p>
+        <div id="wishResult" class="wish-result" hidden tabindex="-1"><span class="wish-result-star">✧</span><h3>Feliz aniversário, minha coelhinha.</h3><p>Que a vida seja gentil com você. E que, mesmo nos dias difíceis, você nunca esqueça que merece viver coisas muito, muito bonitas.</p><strong>Você é uma pessoa extraordinária. Feliz 20 anos, July. 💙</strong><button id="relightBtn" type="button" class="button button-outline">Acender de novo ↺</button></div>
+      </div>
+      <div id="confetti" class="confetti" aria-hidden="true"></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><div class="footer-mark">july<span>.</span>20 <span class="footer-star">✦</span></div><p>Uma pequena homenagem a uma garota que carrega mundos inteiros dentro de si.</p><span>Feito com carinho, por Sam. ♡</span></div></footer>
+
+  <dialog id="steinDialog" class="modal stein-modal" aria-labelledby="steinTitle"><div class="modal-content"><button class="modal-close" type="button" data-close="steinDialog" aria-label="Fechar">×</button><span class="modal-eyebrow">ARQUIVO CONFIDENCIAL • CRUSH FICTÍCIO Nº 01</span><div class="stein-icon" aria-hidden="true"><span class="bolt">⚙</span><span class="stitch">✕ ✕ ✕</span></div><h2 id="steinTitle">Sobre o tal <em>Dr. Stein...</em></h2><p>Ela ainda inventa de gostar de personagem maluco, bonito e inteligente, tipo o Dr. Stein.</p><p><strong>Eu tenho ciúmes? Tenho.</strong></p><p>Mas levo na brincadeira, porque, no fim, eu sei que sou melhor que todos eles.</p><p class="stein-last"><strong>E essa coelhinha perfeita continua sendo minha garota. 💙</strong></p><span class="stein-sign">— um certo namorado ciumento 🙄</span></div></dialog>
+
+  <dialog id="letterDialog" class="modal letter-modal" aria-labelledby="letterDialogTitle"><div class="letter-modal-outer"><button class="modal-close letter-close" type="button" data-close="letterDialog" aria-label="Fechar carta">×</button><article class="letter-paper"><div class="letter-paper-top">✧ &nbsp; 25 de novembro de 2026 &nbsp; ✧</div><h2 id="letterDialogTitle">Minha coelhinha,</h2><p>Opa, tudo bem, minha coelhinha? 💙</p><p>É engraçado pensar que, mesmo tendo passado quase um ano desde que nos conhecemos, eu já consigo enxergar o quanto você pode ser importante na vida de alguém que te conhece profundamente. E hoje, mais do que nunca, quero que você também consiga enxergar essa importância e toda a beleza que carrega.</p><p>Seu aniversário não é só sobre mais um ano que passou. Principalmente hoje, nos seus 20 anos, é sobre tudo que você viveu, aprendeu e tudo que ainda está por vir.</p><p>Eu me sinto tão grato por ter acompanhado parte dos seus 19 anos e agora poder te ver completando 20. É uma sensação de estar vendo você crescer, sabia? Mesmo depois de tudo que já viveu, continuo vendo minha garota aprender um pouquinho mais a cada dificuldade, seja interna ou externa.</p><p>Desde que te conheci, percebi o quanto você é encantadora, interessante, fiel e admirável. E não digo isso apenas romanticamente, mas pela pessoa que você é. Não é à toa que eu sempre digo que, mesmo se não tivesse rolado nada entre nós, ficaria feliz em ser seu amigo mais próximo. Mas é claro que não vou me contentar só com isso, rs.</p><p>July, eu queria tanto que você enxergasse que não é alguém que traz infelicidade para os outros. Você tem uma maneira tão tranquila e carinhosa de tratar as pessoas, e isso é algo que admiro muito em você.</p><p>Mas presta atenção numa coisa: <strong>se prioriza, meu bem.</strong></p><p>Você não precisa ser perfeita, nem estar sempre disponível ou fazer todo mundo se sentir bem o tempo inteiro. Você também pode errar, não entender alguma coisa ou ter dificuldade para lidar com seus sentimentos. E tá tudo bem.</p><p class="letter-pullquote">Você não precisa ser uma estrela brilhando o tempo todo para continuar sendo especial.</p><p>Você é inteligente, boa, criativa, dedicada, linda (a mais linda de todas, inclusive) e, acima de tudo, uma garota muito amável. Quero que você reconheça essas qualidades em si mesma, mesmo nos dias em que as coisas não saírem como gostaria.</p><p>E olha só para o seu futuro, coelhinha...</p><p>Você ainda tem tantos sonhos para realizar! Sua formação, o desejo de estudar Museologia, sua arte, seu trabalho e tantos lugares que ainda quer conhecer. Não precisa ter pressa nem sentir que está atrasada. Uma entrevista que não deu certo ou um momento difícil não define aquilo que você é capaz de conquistar.</p><p>Eu acredito muito em você. Acredito na professora maravilhosa que pode se tornar, na artista talentosa que já é e na mulher que continuará se descobrindo com o passar dos anos.</p><p>Espero que você conquiste o emprego que deseja, estude tudo aquilo que ama, encontre novos lugares para construir boas memórias e tenha uma vida cheia de felicidade, carinho e realizações.</p><p>Você merece tudo isso, bobinha.</p><p>E se eu pudesse deixar uma mensagem para seus 20 anos, seria esta:</p><p class="letter-pullquote"><strong>Não desista dos seus sonhos, mas também não se cobre tanto para alcançá-los. Viva, aprenda, erre, tente novamente e aproveite cada pedacinho do caminho.</strong></p><p>Você tem muita coisa bonita pela frente, minha princesa. E espero que este novo ano da sua vida te faça perceber cada vez mais o quanto você é especial.</p><p>Eu te amo muito.</p><p><strong>Feliz aniversário, meu neném! 💙💙</strong></p><div class="letter-signature">Com amor,<br><strong>Sam ♡</strong></div></article></div></dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <audio id="soundtrack" preload="none" loop crossorigin="anonymous">
+    <source src="assets/audio/quinto-elemento.mp3" type="audio/mpeg">
+    <source src="assets/audio/quinto-elemento.m4a" type="audio/mp4">
+  </audio>
+</body>
+</html>
